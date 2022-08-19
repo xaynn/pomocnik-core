@@ -1,0 +1,10 @@
+<meta>
+	<export function="addNotification" type="client"/>
+	<export function="ShowNewPenalty" type="client"/>
+	<export function="ShowNewPenalty" type="server"/>
+	<export function="addNotification" type="server"/>
+	<file src="files/beep.mp3" type="client" />
+	<script src="sourceC.lua" type="client" cache="false"/>
+	<script src="sourceS.lua" type="server"/>
+
+</meta>

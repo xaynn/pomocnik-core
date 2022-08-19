@@ -1,0 +1,31 @@
+<meta>
+	<info name="Custom edit" author="MeeShuffle" version="1.0 Beta"/>
+		<download_priority_group>1</download_priority_group>
+
+	<script src="edit.lua" type="client" cache="false"/>
+	<script src="functions.lua" type="client" cache="false"/>
+	<script src="change.lua" type="client" cache="false"/>
+	<file src="fonts/font.ttf"/>
+	<file src="fonts/font2.ttf"/>
+	<file src="fonts/font3.ttf"/>
+	<file src="fonts/font4.ttf"/>
+	<file src="version.txt"/>
+	
+	
+	<export function="createCustomEdit" type="client"/>
+	<export function="editSetMasked" type="client"/>
+	<export function="editGetText" type="client"/>
+	<export function="editSetText" type="client"/>
+	<export function="editSetVisible" type="client"/>
+	<export function="editMaxLength" type="client"/>
+	<export function="editChangePos" type="client"/>
+	<export function="editSetProperty" type="client"/>
+	<export function="editSetFocus" type="client"/>
+	<export function="destroyCustomEdit" type="client"/>
+	<export function="isActive" type="client"/>
+        <export function="editGetLength" type="client"/>
+	
+	<aclrequest>
+		<right name="function.fetchRemote" access="true" />
+	</aclrequest>
+</meta>

@@ -1,0 +1,3 @@
+
+local as = exports['autoScale']
+local x, y, w, h = as.scale(pozycja x, pozycja y, szerokosc, wysokosc)

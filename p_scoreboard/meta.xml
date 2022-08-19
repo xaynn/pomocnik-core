@@ -1,0 +1,11 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+			<!-- <script src="sourceC.lua" type="client" cache="false"/> -->
+
+    <file src="files/bg.png" type="client" />
+	<file src="files/bottom.png" type="client" />
+	<file src="files/top.png" type="client" />
+	<file src="files/line.png" type="client" />
+	<file src="files/line2.png" type="client" />
+	<file src="files/myriadproregular.ttf" type="client" />
+</meta>

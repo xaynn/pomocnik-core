@@ -1,0 +1,15 @@
+<meta>
+
+	<script src="sourceC.lua" type="client" cache="false"/>
+	<script src="sourceS.lua" type="server"/>
+	<export function="findPlayer" type="server"/>
+	<export function="getAdminTitle" type="server"/>
+	<export function="getAdminTitle" type="client"/>
+	<export function="getAdminPower" type="server"/>
+	<export function="getAdminPower" type="client"/>
+
+	
+
+
+
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+				<file src="files/logowanie.png" type="client" />
+				<file src="files/1.mp3" type="client" />
+				<file src="files/2.mp3" type="client" />
+				<file src="files/3.mp3" type="client" />
+				<file src="files/1.png" type="client" />
+				<file src="files/login_remember_checked.png" type="client" />
+				<file src="files/login_remember_unchecked.png" type="client" />
+
+        <script src="sourceS.lua" type="server"/>
+        <script src="sourceC.lua" type="client"/>
+		<script src="musicC.lua" type="client"/>
+
+
+</meta>
